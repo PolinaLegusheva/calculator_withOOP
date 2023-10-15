@@ -1,6 +1,4 @@
 from tkinter import *
-from math import sqrt
-
 
 def button_click(number):
     current_number = display.get()
@@ -142,5 +140,10 @@ button_root.grid(row=5, column=1)
 button_exponentiation.grid(row=5, column=2)
 button_clear.grid(row=6, column=2)
 button_equal.grid(row=4, column=2)
+
+first_number = None
+second_number = None
+operation = None
+result = None
 
 root.mainloop()
