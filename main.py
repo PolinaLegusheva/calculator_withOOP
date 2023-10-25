@@ -127,6 +127,7 @@ class Calculator:
             self.operation = None
             self.result = None
 
+
 root = Tk()
 calculator = Calculator(root)
 root.geometry('445x450+700+300')
